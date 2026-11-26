@@ -1,0 +1,6 @@
+{
+  "name": "Iron Horizon: Tactical Ops",
+  "description": "A 3D military first-person shooter with multi-weapon loadouts, intelligent enemy AI, four tactical game modes, day/night lighting, and desktop plus mobile touch controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

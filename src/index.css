@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Chakra Petch', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: var(--font-sans);
+    background-color: #0b0e11;
+    color: #edf0f2;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.touch-none-game {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Custom subtle tactical scrollbars for menus */
+.tactical-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.tactical-scroll::-webkit-scrollbar-track {
+  background: rgba(15, 20, 26, 0.6);
+}
+.tactical-scroll::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 3px;
+}
+.tactical-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.5);
+}
